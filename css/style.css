@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    color: #020826;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Aluraicon{
+    padding-left:20px ;
+    width: 100px;
+    height: 90px;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #f9f4ef;
+}
+
+header {
+    margin-top: 0rem;
+    margin-right: 0px;
+    margin-bottom: 2rem;
+    margin-left: 0px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.7s all;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.flex-item {
+    display: block;
+    margin: 0 2%;
+    width: 40%;
+}
+
+textarea {
+    width: calc(100% - 54px);
+    height: 240px;
+    padding: 2rem 1.5rem;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: 0.5s all;
+    border-radius: 25px;
+    border: 3px solid #ffffff00;
+    background-color: #8c7851;
+    border-color: black;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.03) inset;
+    outline: none;
+    resize: none;
+}
+
+textarea:hover   {
+    border: 3px solid #020826;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.533);
+}
+
+textarea::placeholder::-webkit-input-placeholder {
+     color: rgba(255, 255, 255, 0.533);
+}
+textarea::placeholder::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.533);
+}
+textarea::placeholder:-ms-input-placeholder {
+     color: rgba(255, 255, 255, 0.533);
+}
+textarea::placeholder:-moz-placeholder {
+     color: rgba(255, 255, 255, 0.533);
+}
+
+.aviso {
+    padding: 1.0rem 0 0 2rem;
+    position: absolute;
+    font-size: 0.75rem;
+    color: #020826;
+    transition: 0.3s all;
+    font-size: 20px;
+}
+
+#second {
+    background-color: white;
+    background-image: url("../img/undraw_file_searching_re_3evy.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-color: black;
+}
+
+.buttons {
+    display: flex;
+    
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+button {
+    width: 130px;
+    border-radius: 15px;
+    color: white;
+    border: 3px solid #592dd100;
+    background: #8c7851;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+button:hover {
+    border: 3px solid #000000;
+}
+
+.about {
+    display: flex;
+    margin: 3rem 0 1rem 0;
+    justify-content: center;
+}
+
+.about div {
+    padding-left: 2rem;
+}
+
+.myname {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    transition: 0.7s all;
+}
+
+.myname:hover {
+    transform: scale(1.05);
+}
+
+.pictures {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.pictures a img {
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 3px solid #ffffff00;
+    transition: 0.5s all;
+}
+
+.pictures a img:hover {
+    border: 3px solid #716040;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .container {
+        display: inline;
+    }
+    .flex-item {
+        margin: 3% auto;
+        width: 80%;
+    }
+    textarea {
+        width: calc(100% - 54px);
+        height: 150px;
+    }
+    .buttons {
+        gap: 0;
+    }
+    #btn1 {
+        margin-right: 1rem;
+    }
+    #btn2 {
+        margin-left: 1rem;
+    }
+    #btn3 {
+        border: 3px solid #021069;
+        transition: 0.5s all;
+    }
+    #btn3:hover {
+        border: 3px solid #fff;
+    }
+    .myname {
+        font-weight: 200;
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+    .pictures {
+        gap: 0.5rem;
+    }
+}

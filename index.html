@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Challenge ONE Encriptador</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            
+            <nav>
+                <img id="Aluraicon" src="img/dibk1ba07iflqhldupuz.png" alt="Alura" />
+                <h1>Challenge - Encriptador</h1>
+            </nav>
+        </header>
+        <main>
+
+            <section class="container">
+
+                <div class="flex-item">
+                    
+                    <textarea id="first" placeholder="ingrese el texto aqui..." cols="30" rows="10"></textarea>    
+                    
+                        <div class="buttons">
+                            
+                            <button id="btnEncriptar" onclick="textoEntrada()">Encriptar</button>
+                            <button id="btnDesencriptar" onclick="textoSalida()">Desencriptar</button>
+                        </div>
+                </div>
+
+                <div class="flex-item">
+                    <textarea id="second"  cols="30" rows="10" readonly></textarea>
+                        <div class="buttons">
+                            <button id="btnCopiar" onclick="copiarTexto()">Copiar</button>
+                        </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+
+            <section class="about">
+                <div>
+                    <h2 class="name">Jordan Jimenez Valenzuela</h2>
+                </div>
+                
+                   
+
+            </section>
+            <div class="pictures">
+                        
+                <a target="_blank" rel="" href="https://github.com/JordanJimenezVA">
+                    <img src="img/logo-github.png" alt="GitHub" />
+                </a>
+                <a target="_blank" rel="" href="https://www.linkedin.com/in/jordanjv/">
+                    <img src="img/logo-linkedin.png" alt="LinkedIn" />
+                </a>
+            </div>
+        </footer>
+
+    </body>
+    <script src="js/script.js"></script>
+</html>
